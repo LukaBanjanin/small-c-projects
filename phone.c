@@ -6,13 +6,13 @@ int main () {
 
 	int x,y,z,r,c;
 
-	printf("Input Phone Number ");
+	printf("Input 10 digit Phone Number ");
 	r = scanf("%3d%3d%4d", &x, &y, &z);
 	if (r != 3){ 
 	printf("Invalid phone number!\n");
 	return(1);
 }
-// cleares the input buffer
+// clear the input buffer
 	while ((getchar()) != '\n');
 	printf("Format Options\n A) Local\n B) Domestic\n C) International\n D) Odd\n\n Input Option: ");
 	c = getchar();

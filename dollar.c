@@ -12,7 +12,7 @@ int main(void){
 	r = scanf("%d", &input);
 //error checking
 	if ( input < 0 || r != 1) {
-	printf("Error something went wrong wiht your input");
+	printf("Error something went wrong with your input");
 	return 1; 
     }
 	else pay_amount(input, &twenty, &ten, &five, &two, &one);
